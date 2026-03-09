@@ -184,6 +184,27 @@ nav a:hover::after {
   filter: brightness(1);
 }
 
+/* ===== Project Link Button ===== */
+.project-link-button {
+  background: #b41f1f;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(180, 31, 31, 0.3);
+}
+
+.project-link-button:hover {
+  background: #d42f2f;
+  box-shadow: 0 6px 25px rgba(180, 31, 31, 0.5);
+  transform: translateY(-2px);
+}
+
 /* ===== Footer ===== */
 footer {
   text-align: center;
